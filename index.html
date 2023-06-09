@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="/img/travel.png" alt=""
+            /></a>
+            <div class="navbar-nav flex-grow-1 justify-content-center">
+              <a class="nav-link px-4" href="#">MANAGE MY BOOKINGS</a>
+              <a class="nav-link px-4" href="#">ENGLISH</a>
+              <div class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle px-4"
+                  href="#"
+                  id="moreDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MORE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+              </div>
+              <div class="px-4">
+                <button class="btn btn-outline-dark">Sign Up</button>
+              </div>
+            </div>
+            <div class="phone-number">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>+(234) 703 060 1281</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="about">
+        <div class="container rounded py-5 px-5">
+          <h2 class="text-center">Our Story</h2>
+          <p class="text-center">
+            The company started in the year 2013 under a different name. We are
+            a HOSPITALITY COMPANY. We provide a vast amount of services to our
+            customers, which includes access to hotels, flights, car rides and
+            lots more.
+          </p>
+          <div class="rounded mt-4 p-3 inner-container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p class="text-danger quote">
+                  “True hospitality consists of giving the best of yourself to
+                  your guests.”
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p class="quote-description">
+                  Our story is a story of passion, hard work, and tenacity. We
+                  wanted to help people travel and feel safe in comfort with
+                  their guides and our partners. We set out to get just the best
+                  people - to help achieve this. Our employees, partners, and
+                  associates are people who care. It’s beautiful here, let’s
+                  have fun together.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="core-value dark-section">
+        
+          <h2 class="text-center">Core Values</h2>
+        
+          <div class="values-container bg-green">
+            <p class="values-description">We believe in the power of diverse groups of people to make things happen.</p>
+            <div class="container">
+              <div class="card-row">
+                <div class="card">
+                  <img src="img/values-1.png" alt="Value 1">
+                  <h3 class="card-title">Diversity and growth</h3>
+                </div>
+                <div class="card">
+                  <img src="img/values-2.png" alt="Value 2">
+                  <h3 class="card-title">Learning and teamwork</h3>
+                </div>
+                <div class="card">
+                  <img src="img/values-3.png" alt="Value 3">
+                  <h3 class="card-title">Empathy and Dicipline </h3>
+                </div>
+              </div>
+        
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="team">
+        <div class="container">
+          <h2 class="text-center">Our People</h2>
+          <div class="team-container bg-lightgreen">
+            <div class="person-info">
+              <div class="person-image">
+                <img src="person1.jpg" alt="Person 1" />
+              </div>
+              <div class="person-details">
+                <p>
+                  Kings Ativie by name, who studied at The Bells University in
+                  Ogun state. I am interested in technology, research & sports.
+                </p>
+                <p class="experience text-red">
+                  “My time here has been wonderful, every day I’m inspired by
+                  the projects we work on, my greater goal is to solve urban
+                  issues.”
+                </p>
+              </div>
+            </div>
+            <div class="person-thumbnails">
+              <img
+                src="img/person1.png"
+                alt="Person 1"
+                class="thumbnail active"
+                onclick="changePerson(1)"
+              />
+              <img
+                src="img/person2.png"
+                alt="Person 2"
+                class="thumbnail"
+                onclick="changePerson(2)"
+              />
+              <img
+                src="img/person3.png"
+                alt="Person 3"
+                class="thumbnail"
+                onclick="changePerson(3)"
+              />
+              <img
+                src="img/person4.png"
+                alt="Person 4"
+                class="thumbnail"
+                onclick="changePerson(4)"
+              />
+              <img
+                src="img/person5.png"
+                alt="Person 5"
+                class="thumbnail"
+                onclick="changePerson(5)"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        
+  function changePerson(personId) {
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const personImage = document.querySelector('.person-image img');
+    const personDescription = document.querySelector('.person-details p:first-of-type');
+    const personExperience = document.querySelector('.experience');
+
+    // Remove active class from all thumbnails
+    thumbnails.forEach((thumbnail) => {
+      thumbnail.classList.remove('active');
+    });
+
+    // Add active class to the clicked thumbnail
+    const clickedThumbnail = document.querySelector(`.thumbnail:nth-child(${personId})`);
+    clickedThumbnail.classList.add('active');
+
+    // Change the person's image, description, and experience based on the personId
+    switch (personId) {
+      case 1:
+        personImage.src = 'img/person1.png';
+        personDescription.textContent = 'Kings Ativie by name, who studied at The Bells University in Ogun state. I am interested in technology, research & sports.';
+        personExperience.textContent = '“My time here has been wonderful, every day I’m inspired by the projects we work on, my greater goal is to solve urban issues.”';
+        break;
+      case 2:
+        personImage.src = 'img/person2.png';
+        personDescription.textContent = 'I am Kings Ogoh, who studied at The University of Benin in Lagos state. I am interested in technology, research & sports.';
+        personExperience.textContent = '"Everybody de shalaye but na me get the Koboko. Ifyou nor do well you go collect"';
+        break;
+      case 3:
+        personImage.src = 'img/person3.png';
+        personDescription.textContent = 'I am Simon Cyril, who studied at BIU in Benin City. I am interested in web, AI and blockchain';
+        personExperience.textContent = '“My time here has been wonderful, every day I’m inspired by the projects we work on, my greater goal is to solve urban issues.”';
+        break;
+      case 4:
+        personImage.src = 'img/person4.png';
+        personDescription.textContent = 'I am John Doe, who studied at Backcock. I am interested in Women';
+        personExperience.textContent = 'Follow your Dreams dont follow Women';
+        break;
+      case 5:
+        personImage.src = 'img/person5.png';
+        personDescription.textContent = 'My name is Kings Ogoh, who studied at The University of Benin in Lagos state. I am interested in technology, research & sports.';
+        personExperience.textContent = 'This is a really good place to work, We get free food';
+        break;
+      default:
+        break;
+    }
+  }
+</script>
+
+    </script>
+  </body>
+</html>

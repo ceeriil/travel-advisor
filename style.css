@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&family=Vollkorn:wght@400;600;700&display=swap");
+
+body {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar .container {
+  padding: 1rem 0;
+}
+
+.nav-link {
+  font-family: "Vollkorn", serif;
+}
+
+.phone-number {
+  color: #6e9e76;
+  font-weight: 400;
+  font-family: "Vollkorn", serif;
+  font-size: 1.1rem;
+}
+
+.about .container {
+  background: #ecf0ef;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 4rem auto;
+  color: #5f4b4b;
+}
+
+.inner-container {
+  background: rgba(33, 67, 39, 0.13);
+}
+
+.inner-container .row {
+  padding: 3rem 2rem;
+}
+
+.quote {
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+.quote-description {
+  font-size: 1.5rem;
+}
+
+.values-container {
+  background: #8acca9;
+  padding: 4rem 0;
+}
+.values-description {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.card-row .card {
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  border-radius: 1.2rem;
+}
+
+.card-row .card h3 {
+  padding: 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* ---- TEAM SECTION --- */
+.team h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.team-container {
+  background: #d1dad5;
+  padding: 2.5rem;
+}
+
+.team-container .person-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.person-details {
+  text-align: right;
+  font-size: 1.7rem;
+  color: #052865;
+  font-weight: 600;
+  width: 70%;
+  margin: 3rem auto 1rem;
+}
+.person-image img {
+  border: 10px solid #f1cf6c;
+  width: 70%;
+}
+
+.experience {
+  color: rgba(242, 81, 86, 0.8);
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.person-thumbnails {
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+}
